@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.conteneur_connexion{
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+	background: url(../image/ChampionsLeague2018.jpg)  center/cover  no-repeat;
+ }
+form{
+    width: 70%;
+    line-height: 70px;
+    margin: auto;
+    padding-top: 70px;
+}
+form input[type="email"]{
+    width: 80%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    background-color: transparent;
+    margin-right: 10px;
+    padding: 5px;
+    color:white;
+}
+form input[type="submit"]{
+    width: 90%;
+    padding: 5px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
